@@ -42,3 +42,20 @@ input{
 label{
     margin-right: 30px ;
 }
+@media print {
+    #formulaire,h2,#btn{
+        display: none;
+    }
+    #op{
+        color: blue;
+        
+    }
+}
+
+input {
+   position: relative; 
+   top:-30px;
+ text-align: center;
+   
+
+}
