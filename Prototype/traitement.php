@@ -1,4 +1,9 @@
+<?php
+session_start(); // On démarre la session AVANT toute chose
+$_SESSION['nom']=$_POST['nom'];
+$_SESSION['age']=$_POST['age'];
 
+?>
 
 <!doctype html>
 <html>
@@ -34,8 +39,8 @@ tfoot {
             <td>Age</td>
         </tr>
         <tr>
-            <td><?php echo $_POST['nom'] ?></td>
-            <td><?php echo $_POST['age'] ?></td>
+            <td><?php  echo $_SESSION['nom']; ?></td>
+            <td><?php echo  $_SESSION['age']; ?></td>
         </tr>
     </tbody>
 </table> </td>
