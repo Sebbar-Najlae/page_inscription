@@ -45,6 +45,20 @@ tfoot {
 
 
 
+<?php
+
+$nom=$_POST['nom'];
+$age=$_POST['age'];
+
+$tabs = array($nom,$age);
+foreach ($tabs as $tab) {
+    echo " $tab \n" ;
+}
+?>
+
+
+
+
 
 </body>
 
