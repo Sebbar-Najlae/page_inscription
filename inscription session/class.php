@@ -1,5 +1,17 @@
 <?php 
-class participants{
-    
+
+class utilisateur
+{
+    private $nom;
+    private $prenom;
+    private $email;
+    private $ville;
+
+    function construct()
+    {
+        $this->nom = $_POST["nom"] ;
+        
+    }
 }
+
 ?>

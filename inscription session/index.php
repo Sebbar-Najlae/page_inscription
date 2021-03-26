@@ -22,6 +22,11 @@
                <input type="text" name="prenom" value="" required/>
                <span class="error">* </span>
             </div>
+            <div class="label">Télephone</div>
+            <div class="champ">
+               <input type="tel" pattern="[0-9]{2}.[0-9]{2}.[0-9]{2}.[0-9]{2}.[0-9]{2}" name="phone" value="" required/>
+               <span class="error">*</span>
+            </div>
             <div class="label">Email</div>
             <div class="champ">
                <input type="email" name="email" value="" required/>
