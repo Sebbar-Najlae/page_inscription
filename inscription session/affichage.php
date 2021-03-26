@@ -15,7 +15,7 @@
  }
 
  // Ajouter le nom du nom dans le tableau
- $liste_participants[] = $_GET["nom"] ;
+ $liste_participants[] = $_POST["email"] ;
 
  // Enregistrer le tableau dans la session
 $_SESSION['liste_participants'] =  $liste_participants;
