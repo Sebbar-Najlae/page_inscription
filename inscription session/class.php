@@ -2,16 +2,33 @@
 
 class utilisateur
 {
-    private $nom;
-    private $prenom;
-    private $email;
-    private $ville;
+    public $nom;
+    public $prenom;
+    public $tel;
+    public $email;
+    public $ville;
 
-    function construct()
+    public function getNom()
     {
-        $this->nom = $_POST["nom"] ;
-        
+       return $this->nom ;
     }
+    public function getPrenom()
+    {
+       return $this->prenom ;
+    }
+    public function getTel()
+    {
+       return $this->tel ;
+    }
+    public function getEmail()
+    {
+       return $this->email ;
+    }
+    public function getVille()
+    {
+       return $this->ville;
+    }
+
 }
 
 ?>
