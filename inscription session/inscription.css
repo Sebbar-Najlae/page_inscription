@@ -1,4 +1,6 @@
-
+/* *{
+   text-align: center;
+} */
 .error {color: #e07a5f;}
 body{
     padding:10px;
@@ -12,6 +14,7 @@ body{
     font:bold 16pt arial;
     color:#6798C0;
  }
+
  input,select{
     border:solid 1px #99D6EA;
     padding:10px;
@@ -56,3 +59,22 @@ body{
     color:#030303;
  }
  
+
+ .entete{
+   margin-bottom:4px;
+   font-weight: bold;
+   color:#6798C0;
+}
+
+.information{
+   margin-bottom:4px;
+   font-weight: bold;
+   color:#e07a5f;
+}
+
+
+table, th, td {
+   border: 1px solid #6798C0;
+   width: 50%;
+   text-align: center;
+ }

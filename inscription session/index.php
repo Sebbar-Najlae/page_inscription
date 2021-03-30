@@ -1,4 +1,4 @@
-<?php include "class.php";?>
+
 <!DOCTYPE HTML>  
 <html>
 <head>
