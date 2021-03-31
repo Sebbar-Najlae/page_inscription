@@ -1,0 +1,80 @@
+/* *{
+   text-align: center;
+} */
+.error {color: #e07a5f;}
+body{
+    padding:10px;
+ }
+ fieldset{
+    border:solid 1px #6798C0;
+    border-radius:10px;
+    padding:20px;
+ }
+ legend{
+    font:bold 16pt arial;
+    color:#6798C0;
+ }
+
+ input,select{
+    border:solid 1px #99D6EA;
+    padding:10px;
+    font:10pt verdana;
+    color:#e07a5f;
+    outline:none;
+    border-radius:6px;
+ }
+ input[type="submit"]{
+    border:none;
+    background-color:#e07a5f;
+    color:#FFFFFF;
+    width:200px;
+    cursor:pointer;
+ }
+ .label{
+    margin-bottom:4px;
+    font:10pt arial;
+    color:#6798C0;
+ }
+ .champ{
+    margin-bottom:20px;
+ }
+ .erreur{
+    font:10pt arial;
+    color:#DD0000;
+    background-color:#EEEEEE;
+    padding:10px;
+    border-radius:10px;
+    margin-bottom:10px;
+ }
+ .rappel{
+    font:10pt arial;
+    color:#888888;
+    background-color:#EEEEEE;
+    padding:10px;
+    border-radius:10px;
+    margin-bottom:10px;
+ }
+
+ .color{
+    color:#030303;
+ }
+ 
+
+ .entete{
+   margin-bottom:4px;
+   font-weight: bold;
+   color:#6798C0;
+}
+
+.information{
+   margin-bottom:4px;
+   font-weight: bold;
+   color:#e07a5f;
+}
+
+
+table, th, td {
+   border: 1px solid #6798C0;
+   width: 50%;
+   text-align: center;
+ }
