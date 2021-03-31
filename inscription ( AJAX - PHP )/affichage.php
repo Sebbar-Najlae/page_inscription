@@ -81,6 +81,8 @@ $_SESSION['nom'] =  $ville;
 session_destroy();
 ?>
 
+
+
 <!-- Affichage -->
 <!DOCTYPE html>
 <html lang="en">

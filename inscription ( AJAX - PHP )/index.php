@@ -7,7 +7,7 @@
 </head>
 <body>  
 
-<form action="affichage.php" target="_blank" method="POST" >
+<form action="affichage1.php" target="_blank" method="POST" >
          <fieldset>
             <legend><h2>Nouvel utilisateur</h2></legend>
             
