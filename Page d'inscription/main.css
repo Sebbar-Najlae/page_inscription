@@ -46,10 +46,6 @@ label{
     #formulaire,h2,#btn{
         display: none;
     }
-    #op{
-        color: blue;
-        
-    }
 }
 
 input {

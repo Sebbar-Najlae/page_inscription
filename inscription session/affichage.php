@@ -94,6 +94,8 @@ session_destroy();
 </head>
 <body>
 <fieldset>
+<div class="btn"><input type="button" id="btn" value="imprimer" onclick="window.print()" ></div>
+<br>
 <legend ><h2>Liste des participants</h2></legend>
 <div >
 <table>
@@ -126,6 +128,7 @@ foreach ($_SESSION["nom"] as $value) {
 
 </table>
 </div>
+
 </fieldset>
 </body>
 

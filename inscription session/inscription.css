@@ -78,3 +78,13 @@ table, th, td {
    width: 50%;
    text-align: center;
  }
+ @media print {
+   #formulaire,#btn{
+       display: none;
+   }
+   table, th, td {
+      border: 1px solid #6798C0;
+      width: 50%;
+      text-align: center;
+    }
+}
