@@ -64,7 +64,6 @@ alert(data);
                 $("#app").append(presentation);
             });
         });
-
     </script>
 </body>
 </html>
