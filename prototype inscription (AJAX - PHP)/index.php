@@ -6,7 +6,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js" ></script>
 </head>
 <body>
-    <form action="liste-participants.php" target="_blank" method="POST" >
+    <form action="liste-participants.php" target="_blank" method="get" >
 
     <fieldset>
             <legend><h2>Nouvel utilisateur</h2></legend>
@@ -48,17 +48,15 @@
     </form>
     <div id="app"></div>
     <script type="text/javascript" >
-
-        // KeyWord : JSON From the Server
-        $.get("liste-apprenants.php", function( data ){
 alert(data);
-            var apprenants = JSON.parse(data);
-
-            apprenants.forEach(apprenant => {
+        // KeyWord : JSON From the Server
+        $.get("liste-participants.php", function( data ){
+            var participants = JSON.parse(data);
+            participants.forEach(participant => {
 
                 // Création d'un élément html 
                 var presentation =  $("<p></p>")
-                .text(apprenant.Nom + "," + apprenant.Prenom );
+                .text(participant.Nom + "," + participant.Prenom );
 
                 // Insertion de l'élément html dans l'élément div
                 $("#app").append(presentation);
