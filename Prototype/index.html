@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Page d'inscription</title>
+    <link rel='stylesheet' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+   
+    <div id="formulaire">
+    <form>
+        
+            <h2>Inscription</h2>
+            
+            <label for="firstname">Nom :</label>&emsp;&emsp;&nbsp;
+            <input type="text" id="firstname" name="user_firstname"><br>
+        <div><br></div>
+        
+            <label for="lastname">Prénom:</label>&emsp;&nbsp;
+            <input type="text" id="lastname" name="user_lastname"><br>
+            <div><br></div>
+            <label for="Adresse">Adresse :</label>&emsp;
+            <input type="text" id="adresse" name="user_adress"><br>
+            <div><br></div>
+            <label for="phone">Télephone:</label>
+            <input type="tel" id="phone" name="user_phone"> <br>
+            <div><br></div>
+            <label for="mail">E-mail :</label>&emsp;&ensp; 
+            <input type="email" id="email" name="user_mail"><br>
+            <div><br></div>
+            <input type="button" id="btn" value="Ajouter" onclick="Ajouter()">
+            <input type="button" id="btn" value="imprimer" onclick="window.print()" >
+    </form>
+    
+</div>
+    <p id="p"></p><br>
+    
+</body>
+</html>

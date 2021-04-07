@@ -1,0 +1,5 @@
+@media print {
+    #formulaire,#btn{
+        display: none;
+    }
+}
