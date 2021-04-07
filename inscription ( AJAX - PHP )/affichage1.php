@@ -52,27 +52,28 @@ if( isset( $_SESSION['oui'] ) ) {
     <td ><h3>Téléphone</h3></td>
     <td class="information"><h3>Ville</h3></td>
  </tr>
+<tr>
 
- <?php
+<?php
   $i=0;
-foreach ($_SESSION['oui'] as $value) {
+foreach ($liste_participants as $value) {
     if($i==0){
         echo "<tr>"; 
-        echo "<td>".$value."</td>";
+        echo "<td>".($value->getNom())."</td>";
         $i++;
-    }elseif($i<=6 ){
-        echo "<td>".$value."</td>";
+    }elseif($i<=3 ){
+        echo "<td>".($value->getPrenom())."</td>";
         $i++;
     }else{
-        echo "<td>".$value."</td>";
+        echo "<td>".($value->getEmail())."</td>";
             echo "</tr>";
             $i=0;
      };
   
 }
-?>
+?> 
 
- 
+ <tr>
  </table>
 </div>
 </fieldset>
