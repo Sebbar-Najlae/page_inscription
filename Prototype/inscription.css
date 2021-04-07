@@ -79,12 +79,8 @@ table, th, td {
    text-align: center;
  }
  @media print {
-   #formulaire,#btn{
+  #btn{
        display: none;
    }
-   table, th, td {
-      border: 1px solid #6798C0;
-      width: 50%;
-      text-align: center;
-    }
+  
 }
